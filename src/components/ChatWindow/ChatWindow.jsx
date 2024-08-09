@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header';
-import MessageList from './MessageList';
-import MessageInput from './MessageInput';
-import UserList from './UserList';
+import Header from '../Header/Header';
+import MessageList from '../MessageList/MessageList';
+import MessageInput from '../MessageInput/MessageInput';
+import UserList from '../UserList/UserList';
 
 const ChatWindow = ({ user }) => {
   return (
