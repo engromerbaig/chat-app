@@ -1,6 +1,6 @@
 const UserList = () => {
     return ( <div>
-        user list
+        user list geneator
     </div> );
 }
  
