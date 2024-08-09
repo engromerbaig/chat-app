@@ -7,7 +7,7 @@ function App() {
     <>
      <div className="text-red-600 text-3xl bg-green-200">
 
-      Starter set JSX + Tailwind CSS
+      Starter set JSX + Tailwind CSS NOWss!
      </div>
     </>
   )
