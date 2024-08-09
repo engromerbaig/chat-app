@@ -1,8 +1,6 @@
 import React from 'react';
 
-const UserList = () => {
-  const users = ['John', 'Jane', 'Doe'];
-
+const UserList = ({ users }) => {
   return (
     <div className="w-64 p-4 bg-gray-100 border-r">
       <h2 className="text-xl font-bold mb-4">Users</h2>

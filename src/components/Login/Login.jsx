@@ -4,7 +4,6 @@ const Login = ({ setUser }) => {
   const [username, setUsername] = useState('');
 
   const handleLogin = () => {
-    // Mock login - you can later replace this with real authentication logic
     setUser(username);
   };
 
