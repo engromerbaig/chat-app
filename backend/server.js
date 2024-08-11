@@ -4,6 +4,7 @@ const cors = require('cors');
 
 // Import the authentication routes
 const authRoutes = require('./routes/auth'); // Ensure the path is correct based on your project structure
+const chatRoutes = require('./routes/chat');
 
 const app = express();
 app.use(cors());
@@ -17,6 +18,8 @@ mongoose.connect('mongodb://localhost/chat-app', {
 
 // Use the authentication routes
 app.use('/api/auth', authRoutes);
+app.use('/api/chats', chatRoutes);
+
 
 // Start the server
 app.listen(5000, () => {
